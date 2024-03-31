@@ -4,7 +4,9 @@
   "description": "A simple calculator with Typescript,Node.js and inquirer",
   "main": "index.js",
   "type": "module",
-  "bin": "index.js",
+  "bin": {
+    "mar_6-simple-calculator": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +17,6 @@
   },
   "devDependencies": {
     "@types/inquirer": "^9.0.7"
-  }
+  },
+  "keywords": []
 }
